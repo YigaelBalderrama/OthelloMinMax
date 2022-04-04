@@ -13,6 +13,6 @@ if __name__ == '__main__':
             if next_can_move(board_game, not turn):
                 turn = not turn
             else:
-                print("you can't move")
+                print("you can't move, theres no moves")
         print_board(board_game)
     points(board_game)
